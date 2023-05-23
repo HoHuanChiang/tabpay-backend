@@ -8,21 +8,21 @@ public class Destination {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id", nullable = false)
-    private Long Id;
+    private Long id;
 
     @Column(name="name", nullable = false)
-    private String Name;
+    private String name;
 
     @ManyToOne
     @JoinColumn(name = "folder_id")
     private Folder folder;
 
     public Long getId() {
-        return Id;
+        return id;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public Folder getFolder() {
