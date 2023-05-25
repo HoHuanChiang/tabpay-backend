@@ -14,8 +14,7 @@
 	<name>tabapay</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<!--  Use the release flag only if you are using Java 9+  -->
-		<maven.compiler.release>17</maven.compiler.release>
+		<java.vevrsion>17</java.vevrsion>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -62,5 +61,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
