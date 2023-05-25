@@ -2,9 +2,7 @@ package com.example.tabapay.service;
 
 import com.example.tabapay.api.enums.ObjectType;
 import com.example.tabapay.api.model.DestinationModel;
-import com.example.tabapay.api.model.FolderModel;
 import com.example.tabapay.api.repository.DestinationRepository;
-import com.example.tabapay.api.repository.FolderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

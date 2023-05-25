@@ -1,8 +1,6 @@
 package com.example.tabapay.api.model;
 
 import com.example.tabapay.api.entity.Location;
-import jakarta.persistence.Column;
-import jakarta.persistence.Lob;
 
 import java.util.ArrayList;
 import java.util.List;

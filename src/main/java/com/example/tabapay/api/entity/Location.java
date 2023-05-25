@@ -1,7 +1,6 @@
 package com.example.tabapay.api.entity;
 
 import jakarta.persistence.*;
-import org.hibernate.annotations.Nationalized;
 
 @Entity
 @Table(name="Location")
